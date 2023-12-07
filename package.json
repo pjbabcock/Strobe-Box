@@ -1,0 +1,19 @@
+{
+  "name": "strobe-box",
+  "version": "0.4.0",
+  "description": "The Wildest Strobe Box You've Ever Seen",
+  "main": "index.html",
+  "scripts": {
+    "start-dev": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjbabcock/Strobe-Box.git"
+  },
+  "author": "Matt and Peter LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjbabcock/Strobe-Box/issues"
+  },
+  "homepage": "https://github.com/pjbabcock/Strobe-Box#readme"
+}
