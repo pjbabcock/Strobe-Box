@@ -4,7 +4,9 @@
   "description": "The Wildest Strobe Box You've Ever Seen",
   "main": "index.html",
   "scripts": {
-    "start-dev": "http-server"
+    "restore-workspace": "npm install",
+    "start-dev": "http-server",
+    "clean-workspace": "rimraf node_modules"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/pjbabcock/Strobe-Box/issues"
   },
-  "homepage": "https://github.com/pjbabcock/Strobe-Box#readme"
+  "homepage": "https://github.com/pjbabcock/Strobe-Box#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "rimraf": "^5.0.5"
+  }
 }
