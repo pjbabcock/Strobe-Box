@@ -1,0 +1,25 @@
+{
+  "name": "strobe-box",
+  "version": "0.4.0",
+  "description": "The Wildest Strobe Box You've Ever Seen",
+  "main": "index.html",
+  "scripts": {
+    "restore-workspace": "npm install",
+    "start-dev": "http-server",
+    "clean-workspace": "rimraf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjbabcock/Strobe-Box.git"
+  },
+  "author": "Matt and Peter LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjbabcock/Strobe-Box/issues"
+  },
+  "homepage": "https://github.com/pjbabcock/Strobe-Box#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "rimraf": "^5.0.5"
+  }
+}
